@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>LeaderBoard</title>
+</head>
+<body onload="loadInitialData()">
+ <div class="container">
+    <div class="main">
+        <div class="head">Leaderboard</div>
+        <div class="first" id="info">
+            <input style="font-size:1rem" id="firstname" placeholder="First Name" type="text" required minlength="3" required/>
+            <input style="font-size:1rem" id="lastname" placeholder="Last Name" type="text" required minlength="3" required/>
+            <input style="font-size:1rem" id="country" placeholder="Country" type="text" required minlength="3" required/>
+            <input style="font-size:1rem" id="score" placeholder="Score" type="number" required/>
+            <button id="add" type="submit">Add Player</button>
+        </div>
+        <div class="second_container">
+        </div>
+        
+        <!-- <div class="second">
+            <div class="second_1">
+                <div>TANYA</div>
+                <div>SINGH</div>
+                <div>INDIA</div>
+                <div>27</div>
+                
+            </div>
+            <div class="second_2">
+                <div class="display"><img style="width: 20px;" src="./dustbin-svgrepo-com.svg"/></div>
+                <div class="display">+5</div>
+                <div class="display">-5</div>
+            </div>
+            
+    
+        </div> -->
+    </div>
+ </div>   
+<script src="./app.js"></script>
+</body>
+</html>
